@@ -104,7 +104,7 @@ const RecipeApp = () => {
           <li key={recipe.id} className="p-4 bg-green-100 rounded-lg shadow-md">
             <h2 className="text-lg mb-2 font-bold text-green-700">{recipe.name}</h2>
               
-            <p className="text-gray-700 mb-2">
+            <p className="text-gray-700 mb-4">
               <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
               
             </p>
